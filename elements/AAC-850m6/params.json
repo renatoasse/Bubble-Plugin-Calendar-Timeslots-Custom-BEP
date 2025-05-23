@@ -1,0 +1,141 @@
+{
+    "add_hover_pressed": false,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 15,
+        "width": 15
+    },
+    "display": "Calendar Week",
+    "fields": {
+        "AAE": {
+            "caption": " Start Day Week",
+            "default_val": "Monday",
+            "doc": "Define the first day of the week.",
+            "editor": "Dropdown",
+            "name": "startday",
+            "options": "Sunday,Monday",
+            "rank": 0
+        },
+        "AAO": {
+            "caption": "Choose Date",
+            "doc": "Here you can set a dynamic date. The Plugin will identify the date and show the week it belongs to.Here you can set a dynamic date. The Plugin will identify the date and show the week it belongs to.",
+            "editor": "DynamicValue",
+            "name": "date",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAy": {
+            "caption": "Language ",
+            "default_val": "locale",
+            "doc": "To set the language for the list of months and days, you must set the value here. If you want the plugin to automatically detect the language enter the value \"locale\" without the \". If you want for example France enter the value \"fr-FR\" without the \". Here you will find the list of available countries. https://www.w3schools.com/jsref/jsref_tolocalestring.asp",
+            "editor": "DynamicValue",
+            "name": "language",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-calendar",
+    "property_applications": {
+        "MinWidth": false,
+        "resizable": true
+    },
+    "states": {
+        "AAD": {
+            "caption": "List of Days",
+            "doc": "List of days of the week",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "dates",
+            "value": "date"
+        },
+        "AAW": {
+            "caption": "First Day",
+            "doc": "Get the first day of the week!",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "firstday",
+            "value": "date"
+        },
+        "AAX": {
+            "caption": "Last Day",
+            "doc": "Get the last day of the week!",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "lastday",
+            "value": "date"
+        },
+        "AAY": {
+            "caption": "Months Long",
+            "doc": "Get the list of months of the year, long format (December)",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "long",
+            "value": "text"
+        },
+        "AAZ": {
+            "caption": "Months Short",
+            "doc": "Get the list of months of the year, short format (Dec)",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "short",
+            "value": "text"
+        },
+        "AAi": {
+            "caption": "Days Short List (Text)",
+            "doc": "Get the list of days of the week, short format (sun.)",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "daysshort",
+            "value": "text"
+        },
+        "AAj": {
+            "caption": "Days Long List (Text)",
+            "doc": "Get the list of days of the week, long format (sunday.)",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "dayslong",
+            "value": "text"
+        },
+        "AAq": {
+            "caption": "Current Date Time",
+            "doc": "Get Current Date Time ",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "currentime",
+            "value": "date"
+        },
+        "ABI": {
+            "caption": "Months Number (Number)",
+            "doc": "Get Month (number) - 1 to 12",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "monthNumber",
+            "value": "text"
+        },
+        "ABJ": {
+            "caption": "Current Week",
+            "doc": "Get the Calendar's current week",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "c_week",
+            "value": "date"
+        }
+    }
+}

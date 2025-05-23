@@ -1,0 +1,31 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 15,
+        "width": 15
+    },
+    "display": "Calculate Age from DOB",
+    "fields": {
+        "ACk": {
+            "caption": "Date of Birth",
+            "editor": "DynamicValue",
+            "name": "data_nascimento",
+            "optional": false,
+            "options": "Domingo,Segunda",
+            "rank": 0,
+            "value": "date"
+        }
+    },
+    "icon": "ion-plus",
+    "states": {
+        "ACr": {
+            "caption": "Age",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "idade",
+            "value": "number"
+        }
+    }
+}

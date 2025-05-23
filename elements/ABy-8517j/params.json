@@ -1,0 +1,89 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 15,
+        "width": 15
+    },
+    "display": "Calendar Timeslots",
+    "fields": {
+        "ABb": {
+            "caption": "Initial Date & Time",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "inicio",
+            "optional": true,
+            "rank": 1,
+            "value": "date"
+        },
+        "ABc": {
+            "caption": "End Date & Time",
+            "editor": "DynamicValue",
+            "name": "fim",
+            "optional": true,
+            "rank": 2,
+            "value": "date"
+        },
+        "ABd": {
+            "caption": "Interval (minutes)",
+            "default_val": 15,
+            "doc": "Value from 0 to 59",
+            "editor": "DynamicValue",
+            "name": "intervalo",
+            "optional": true,
+            "rank": 3,
+            "value": "number"
+        },
+        "ABf": {
+            "caption": "Generate a List of Years",
+            "editor": "Label",
+            "name": "anos_doc",
+            "rank": 4
+        },
+        "ABg": {
+            "caption": "Initial Year",
+            "doc": "Example: 2010",
+            "editor": "DynamicValue",
+            "name": "ano_inicial",
+            "optional": true,
+            "rank": 5,
+            "value": "number"
+        },
+        "ABh": {
+            "caption": "End Year",
+            "doc": "Example: 2030",
+            "editor": "DynamicValue",
+            "name": "ano_final",
+            "optional": true,
+            "rank": 6,
+            "value": "number"
+        },
+        "ABz": {
+            "caption": "Generate a List of Hours",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        }
+    },
+    "icon": "ion-plus",
+    "states": {
+        "ABl": {
+            "caption": "Timeslots",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "horas",
+            "value": "date"
+        },
+        "ABm": {
+            "caption": "Yearslots",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "anos",
+            "value": "number"
+        }
+    }
+}

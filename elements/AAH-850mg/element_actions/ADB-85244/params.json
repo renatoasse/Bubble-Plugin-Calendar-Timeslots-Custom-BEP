@@ -1,0 +1,33 @@
+{
+    "caption": "Reset",
+    "doc": "Use this action to reset to current Month.",
+    "fields": {
+        "ADC": {
+            "caption": " Start Day Month",
+            "default_val": "Sunday",
+            "doc": "Define the first day of the Month.",
+            "editor": "Dropdown",
+            "name": "startday",
+            "options": "Sunday,Monday",
+            "rank": 0
+        },
+        "ADD": {
+            "caption": "Choose Date",
+            "doc": "Here you can set a dynamic date. The Plugin will identify the date and show the week it belongs to.Here you can set a dynamic date. The Plugin will identify the date and show the month it belongs to.",
+            "editor": "DynamicValue",
+            "name": "date",
+            "optional": true,
+            "rank": 1,
+            "value": "date"
+        },
+        "ADE": {
+            "caption": "Language",
+            "default_val": "locale",
+            "doc": "To set the language for the list of months and days, you must set the value here. If you want the plugin to automatically detect the language enter the value \"locale\" without the \". If you want for example France enter the value \"fr-FR\" without the \". Here you will find the list of available countries: https://www.w3schools.com/jsref/jsref_tolocalestring.asp",
+            "editor": "DynamicValue",
+            "name": "language",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

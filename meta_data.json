@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "data (things)",
+        "2": "containers",
+        "3": "location"
+    },
+    "data_tracked": false,
+    "demo_page": "https://bubble-essential-plugins.bubbleapps.io/version-test/rg-calendar?debug_mode=true",
+    "description": "Create your custom calendar and timeslots with a fully customizable Repeating Group.\nGreat for scheduling apps.\n\n\nPlease read the documentation (in the plugin), the Bubble Editor and the example at the Service URL:\n\nEditor, documentation, step-by-step and example:\nhttps://bubble.io/page?type=page&name=rg-calendar&id=bubble-essential-plugins&tab=tabs-1\n\nDemo page:\nhttps://bubble-essential-plugins.bubbleapps.io/version-test/rg-calendar?debug_mode=true",
+    "image": "//s3.amazonaws.com/appforest_uf/f1654739140192x954603257280211500/3652191%5B1%5D.png",
+    "license": "open_source",
+    "link": "https://bubble.io/page?type=page&name=rg-calendar&id=bubble-essential-plugins&tab=tabs-1",
+    "name": "Calendar & Timeslots Custom · BEP",
+    "plugin_instructions": "Create your custom calendar with a fully customizable Repeating Group.\n\n\nPlease read the documentation (in the plugin), the Bubble Editor and the example at the Service URL:\n\nEditor, documentation, step-by-step and example:\nhttps://bubble.io/page?type=page&name=rg-calendar&id=bubble-essential-plugins&tab=tabs-1\n\nDemo page:\nhttps://bubble-essential-plugins.bubbleapps.io/version-test/rg-calendar?debug_mode=true"
+}
